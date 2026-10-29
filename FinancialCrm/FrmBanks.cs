@@ -54,7 +54,7 @@ namespace FinancialCrm
         {
             FrmBilling frm = new FrmBilling();
             frm.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }
